@@ -1,0 +1,81 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 400px;
+      
+          border-top: 2px solid black; 
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black; 
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+                    <h2>DIO</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Sensor</th></tr>
+	                  	    <tr><td>0</td><td>Lift Limit_Bottom</td></tr>
+	            	    <tr><td>1</td><td>Lift Limit_Top</td></tr>
+	            	    <tr><td>2</td><td>Lift Encoder_Left</td></tr>
+	            	    <tr><td>3</td><td>Lift Encoder_Left</td></tr>
+	            	    <tr><td>4</td><td>Lift Encoder_Right</td></tr>
+	            	    <tr><td>5</td><td>Lift Encoder_Right</td></tr>
+	            	    <tr><td>6</td><td>Drive drive_encoder</td></tr>
+	            	    <tr><td>7</td><td>Drive drive_encoder</td></tr>
+	                                                                                                                                                                                                                             	    </table>
+                        <h2>PWMs</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Motor</th></tr>
+	                  	    <tr><td>0</td><td>Drive frontleft</td></tr>
+	                        	    <tr><td>2</td><td>Drive frontright</td></tr>
+	            	    <tr><td>3</td><td>Drive backleft</td></tr>
+	            	    <tr><td>4</td><td>Drive backright</td></tr>
+	                                                                                                                                                                                                                                                                 	    </table>
+    
+                <h2>CAN IDs</h2>
+	<table><tr>
+	<th class="pound">ID</th>
+	<th>Device</th></tr>
+	                                                                                    	    <tr><td>6</td><td>Lift Talon_Left</td></tr>
+	            	    <tr><td>7</td><td>Lift Talon_Right</td></tr>
+	            	    <tr><td>8</td><td>Arm arm_talon</td></tr>
+	                                                                                                                                                                                                                 	</table>
+        
+            
+                    <h2>Analog Inputs</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Sensor</th></tr>
+	                  	    <tr><td>0</td><td>Drive Gyro 1</td></tr>
+	            	    <tr><td>1</td><td>Arm  Potentiometer</td></tr>
+	                                                                                                                                                                                                                                                                                                     	    </table>
+        
+                    <h2>PCM 0</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Solenoid</th></tr>
+	                  	    <tr><td>0</td><td>Claw Double Solenoid 1 Forward </td></tr>
+	            	    <tr><td>1</td><td>Claw Double Solenoid 1 Reverse </td></tr>
+	                                                                                                                                                                                                                                                                                                     	    </table>
+                                                                                                                                                                                                                                                    
+                <h2>Compressor</h2>
+	<table><tr>
+	<th class="pound">PCM</th>
+	<th>Device</th></tr>
+	            	    <tr><td>0</td><td>Claw Compressor 1</td></tr>
+	                                                                                                                                                                                                                                                                                                                 	</table>
+      </body>
+</html>
